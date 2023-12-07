@@ -30,6 +30,7 @@ const Volunteer = () => {
     return (
         <div className="volunteer">
             <Navbar />
+            <div className="formDiv">
             <form id="volunteerForm" onSubmit={handleSubmit}>
                 <label>
                     Name:
@@ -50,6 +51,7 @@ const Volunteer = () => {
 
                 <button type="submit">Submit</button>
             </form>
+            </div>
         </div>
     )
 }
