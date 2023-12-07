@@ -29,11 +29,6 @@ const Hero = () => {
           <p>Efficiently allocate resources to areas affected by crises.</p>
         </div>
       </section>
-
-      <section className="cta">
-        <p>Ready to enhance crisis management in your community?</p>
-        <button>Contact Us</button>
-      </section>
     </div>
   );
 };

@@ -1,0 +1,37 @@
+footer {
+    background-color: rgb(3, 3, 71);
+    padding: 14px;
+    color: rgb(187, 204, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    overflow-y: hidden;
+}
+
+.footertitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.note {
+    width: 50vw;
+    margin: 14px;
+    font-size: 15px;
+}
+
+.note div {
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta button {
+    margin: 0px 14px;
+    height: 30px;
+}
