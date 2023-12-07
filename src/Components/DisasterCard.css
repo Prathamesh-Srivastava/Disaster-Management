@@ -29,8 +29,3 @@
     height: 300px;
     overflow-y: scroll;
 }
-
-.bottom::-webkit-scrollbar {
-    width: 0; /* Hide scrollbar width */
-    background: transparent; /* Optional: Set a transparent background */
-}

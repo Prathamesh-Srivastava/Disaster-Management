@@ -5,7 +5,9 @@ import Navbar from "../Components/Navbar";
 const Volunteer = () => {
     return (
         <div className="volunteer">
-            <Navbar/>
+        <Navbar/>
+        <div className="formDiv">
+
         <form id="volunteerForm">
             <label>
                 Name:
@@ -29,6 +31,7 @@ const Volunteer = () => {
 
             <button type="submit">Submit</button>
         </form>
+        </div>
         </div>
     )
 }

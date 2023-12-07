@@ -1,22 +1,28 @@
 /* Volunteer.css */
 
-.volunteer {
-    padding: 20px;
-  }
-  
-  #volunteerForm {
+.formDiv {
+    padding: 25px;
+}
+
+.volunteer::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar width */
+  background: transparent; /* Optional: Set a transparent background */
+}
+
+#volunteerForm {
+    margin-top: 20px;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f4f4f4;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 8px;
-  }
+}
   
   input,
   textarea {
