@@ -1,0 +1,17 @@
+.card{
+    max-width: 300px;
+}
+.heading{
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}

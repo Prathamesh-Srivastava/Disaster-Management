@@ -7,8 +7,6 @@ import backgroundImage from "../assests/background.webp"
 
 const Hero = () => {
   return (
-    <>
-    <Navbar/>
     <div className="home-container">
       <header>
         <h1>Crisis Management System</h1>
@@ -36,7 +34,7 @@ const Hero = () => {
         <p>Ready to enhance crisis management in your community?</p>
         <button>Contact Us</button>
       </section>
-    </div></>
+    </div>
   );
 };
 
