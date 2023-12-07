@@ -2,6 +2,13 @@
     margin-top: 3px;
     display: flex;
     /* border: 2px solid black; */
-    padding: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
     justify-content: space-evenly;
+    overflow-x: scroll;
+}
+
+.cardContainer::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar width */
+    background: transparent; /* Optional: Set a transparent background */
 }

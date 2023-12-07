@@ -1,6 +1,8 @@
 .card{
+    min-width: 300px;
     max-width: 300px;
     color: rgb(226, 226, 253);
+    margin: 0px 10px;
 }
 .heading{
     height: 50px; 
